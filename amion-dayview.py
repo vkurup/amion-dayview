@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import mechanize
 import string
 from BeautifulSoup import BeautifulSoup
