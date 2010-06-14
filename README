@@ -1,0 +1,15 @@
+Our hospitalist group schedule is on amion.com. It's a useful site, but one
+thing missing is a nice day-view. Specifically, I want to know each of the
+daytime hospitalists working on a given day, and know which day of their
+cycle they are on.
+
+This program parses the monthly calendar (and pulls the month before and
+month after, in case we need those dates as well). It then figures out
+which hospitalists are on, and then for each hospitalist, how many days
+they have worked so far, and how many days they have left.
+
+The current version is a test only, so it loads the test files
+(amion3-5.html) which have fake names and data. It can be adapated easily
+to load the online version.
+
+Contact vinod@kurup.com with any questions.
